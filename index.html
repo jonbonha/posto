@@ -89,16 +89,28 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
          
         }
+
+        section.procedimentos {
+            padding: 20px;
+        }
          
        section.vacinas {
-            background:  rgb(56, 87, 128) url(imagens/vacina.jpeg) center center;
-            background-size: cover;
+            background:  rgb(56, 87, 128) url(imagens/vacina.jpg) center center;
+            
            background-repeat: no-repeat;
            height: 100vh;
-           padding-top: 80px;
+       
            box-shadow: rgba(0, 0, 0, 0.445) 1px 1px 10px inset;
            
+        
        }     
+
+       section.vacinas > span > p {
+           height: 150px;
+           width: 60px;
+           color: white;
+         
+       }
         
         
     </style>
@@ -119,7 +131,7 @@
     </header>
     <main>
         
-       <section>
+       <section class="procedimentos">
         
            <ul>
                <li>Consulta de enfermagem</li>
@@ -136,12 +148,17 @@
            </ul>
            
        </section>
-       <section class="oi">
+
+
+       <section class="vacinas">
+      
+        
 
        </section>
 
-       <section class="vacinas"></section>
+       
 
-    </main>
+
+       </main>
 </body>
 </html>
